@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site de Natacha Gerard</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+    <script src="./scripts.js"></script>
+  </head>
+  <body>
+<header>
+  <h1>Natacha Gerard</h1>
+</header>
+<section class="about">
+  <img src="images/NG.jpg" alt="Photo de Natacha" />
+  <h2>Présentation</h2>
+  <p>
+    Bonjour ! Je suis Natacha Gérard, assistante de gestion sur Paris.<br />
+    Mon profil LinkedIn : <a href="https://www.linkedin.com/in/natacha-gerard-9669b82/" target="_blank">Assistante de Gestion</a>  
+  </p>
+</section>
+<section class="skills">
+  <h2>Compétences</h2>
+  <div class="skills-content">
+    <div class="skills-column">
+        <div class="progress-container">
+            <span class="progress-badge">SUITE OFFICE</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 91%;"></div>
+              <span class="progress-value">91%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+          <div class="progress-container">
+              <span class="progress-badge">WORD</span>
+              <div class="progress">
+                <div class="progress-bar" style="width: 90%;"></div>
+                <span class="progress-value">90%</span>
+              </div>
+            </div>
+            <!-- Fin .progress-container -->
+            <div class="progress-container">
+              <span class="progress-badge">EXCEL</span>
+              <div class="progress">
+                <div class="progress-bar" style="width: 85%;"></div>
+                <span class="progress-value">85%</span>
+              </div>
+            </div>
+            <!-- Fin .progress-container -->
+    </div>
+    <!-- Fin .skills-column -->
+    <div class="skills-column">
+        <div class="progress-container">
+            <span class="progress-badge">ANGLAIS</span>
+            <div class="progress">
+              <div class="progress-bar" style="width: 100%;"></div>
+              <span class="progress-value">100%</span>
+            </div>
+          </div>
+          <!-- Fin .progress-container -->
+          <div class="progress-container">
+              <span class="progress-badge">ODOO</span>
+              <div class="progress">
+                <div class="progress-bar" style="width: 91%;"></div>
+                <span class="progress-value">91%</span>
+              </div>
+            </div>
+            <!-- Fin .progress-container -->
+            <div class="progress-container">
+              <span class="progress-badge">POWERPOINT</span>
+              <div class="progress">
+                <div class="progress-bar" style="width: 61%;"></div>
+                <span class="progress-value">61%</span>
+              </div>
+            </div>
+            <!-- Fin .progress-container -->
+    </div>
+    <!-- Fin .skills-column -->
+  </div>
+  <!-- Fin .skills-content -->
+</section>
+<section class="timeline">
+    <h2>Expérience</h2>
+    <ul>
+        <!-- Début expérience 1 -->
+          <li>
+            <div class="bubble">
+              <time>2019 - 2020</time>
+              <span>Assistante de gestion</span>
+              <br />Paris, France
+            </div>
+          </li>
+          <!-- Fin expérience 1 -->
+          <!-- Début expérience 2 -->
+          <li>
+            <div class="bubble">
+              <time>2011 - 2018</time>
+              <span>Assistante d'association</span>
+              <br />Paris, France
+            </div>
+          </li>
+          <!-- Fin expérience 2 -->
+       
+
+  <!-- Début expérience 3 -->
+<li>
+    <div class="bubble">
+      <time>2008 - 2011</time>
+      <span>Aide-comptable</span>
+      <br />Paris, France
+    </div>
+  </li>
+  <!-- Fin expérience 3 -->
+</ul>
+</section>
+<section class="contact">
+    <h2>Contact</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21005.96910220933!2d2.34999425!3d48.8439808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1622124844201!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <form name="contact" method="POST" data-netlify="true">
+      <div class="row">
+        <div class="form-group">
+          <label>Nom</label>
+          <input type="text" name="name" placeholder="Votre nom" required />
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Votre email"
+            required
+          />
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea
+          name="message"
+          placeholder="Votre message..."
+          required
+        ></textarea>
+      </div>
+      <button class="btn">Envoyer</button>
+    </form>
+  </section>
+</body>
+</html>
